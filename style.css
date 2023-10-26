@@ -66,6 +66,7 @@ button {
 #awesome-left-text h1 {
     font-size: 48px;
     color: var(--on-dark-text);
+    font-weight: bolder;
 }
 
 #awesome-right-image {
@@ -76,4 +77,36 @@ button {
     justify-content: center;
     align-items: center;
     color: #e5e7eb;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.container h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937
+}
+
+.squares-container{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.square-container {
+    min-height: 150px;
+    width: 150px;
+    text-align: center;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
 }
