@@ -12,12 +12,13 @@
 #header-logo {
     font-size: 24px;
     color: var(--on-dark-text);
+    width: 400px;
 }
 
 .header {
     height: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: var(--dark-background);
 }
@@ -25,9 +26,54 @@
 
 
 #nav {
+    width: 400px;
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 10px;
+    justify-content: end;
     font-size: 18px;
     color: var(--on-dark-text);
+}
+
+button {
+    background-color: #3882f6;
+    padding: 5px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: var(--on-dark-text);
+    margin-top: 5px;
+}
+
+
+.awesome {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--dark-background);
+    padding-top: 80px;
+    gap: 20px;
+}
+
+#awesome-left-text {
+    width: 400px;
+    height: 60%;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+
+#awesome-left-text h1 {
+    font-size: 48px;
+    color: var(--on-dark-text);
+}
+
+#awesome-right-image {
+    width: 400px;
+    height: 60%;
+    background-color: #6b6969;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
 }
