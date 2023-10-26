@@ -1,0 +1,33 @@
+:root {
+    --dark-background: #1f2937;
+    --on-dark-text: #f9faf8;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#header-logo {
+    font-size: 24px;
+    color: var(--on-dark-text);
+}
+
+.header {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--dark-background);
+}
+
+
+
+#nav {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    color: var(--on-dark-text);
+}
