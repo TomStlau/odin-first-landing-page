@@ -142,3 +142,25 @@ button {
     font-size: 18px;
     font-weight: bolder;
 }
+
+.last-part {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-container {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    height: 150px;
+    color: var(--on-dark-text);
+    border-radius: 10px;
+}
+
+#last-btn {
+    border: 1px solid white;
+}
